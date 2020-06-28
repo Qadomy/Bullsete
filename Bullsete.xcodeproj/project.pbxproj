@@ -10,9 +10,10 @@
 		0406ECC624A88709005FC1CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406ECC524A88709005FC1CD /* AppDelegate.swift */; };
 		0406ECC824A88709005FC1CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406ECC724A88709005FC1CD /* SceneDelegate.swift */; };
 		0406ECCA24A88709005FC1CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406ECC924A88709005FC1CD /* ContentView.swift */; };
-		0406ECCC24A88714005FC1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0406ECCB24A88714005FC1CD /* Assets.xcassets */; };
 		0406ECCF24A88714005FC1CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0406ECCE24A88714005FC1CD /* Preview Assets.xcassets */; };
 		0406ECD224A88714005FC1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0406ECD024A88714005FC1CD /* LaunchScreen.storyboard */; };
+		0406ECDA24A8DB98005FC1CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0406ECD924A8DB98005FC1CD /* Assets.xcassets */; };
+		0406ECDC24A8DF1C005FC1CD /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406ECDB24A8DF1C005FC1CD /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		0406ECC524A88709005FC1CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0406ECC724A88709005FC1CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0406ECC924A88709005FC1CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0406ECCB24A88714005FC1CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0406ECCE24A88714005FC1CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0406ECD124A88714005FC1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0406ECD324A88714005FC1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0406ECD924A8DB98005FC1CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		0406ECDB24A8DF1C005FC1CD /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,11 @@
 				0406ECC524A88709005FC1CD /* AppDelegate.swift */,
 				0406ECC724A88709005FC1CD /* SceneDelegate.swift */,
 				0406ECC924A88709005FC1CD /* ContentView.swift */,
-				0406ECCB24A88714005FC1CD /* Assets.xcassets */,
 				0406ECD024A88714005FC1CD /* LaunchScreen.storyboard */,
+				0406ECD924A8DB98005FC1CD /* Assets.xcassets */,
 				0406ECD324A88714005FC1CD /* Info.plist */,
 				0406ECCD24A88714005FC1CD /* Preview Content */,
+				0406ECDB24A8DF1C005FC1CD /* InfoView.swift */,
 			);
 			path = Bullsete;
 			sourceTree = "<group>";
@@ -134,8 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0406ECD224A88714005FC1CD /* LaunchScreen.storyboard in Resources */,
+				0406ECDA24A8DB98005FC1CD /* Assets.xcassets in Resources */,
 				0406ECCF24A88714005FC1CD /* Preview Assets.xcassets in Resources */,
-				0406ECCC24A88714005FC1CD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0406ECC624A88709005FC1CD /* AppDelegate.swift in Sources */,
+				0406ECDC24A8DF1C005FC1CD /* InfoView.swift in Sources */,
 				0406ECC824A88709005FC1CD /* SceneDelegate.swift in Sources */,
 				0406ECCA24A88709005FC1CD /* ContentView.swift in Sources */,
 			);
